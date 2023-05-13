@@ -1,0 +1,67 @@
+
+.header-left{
+   text-align: left;
+    color: white;
+    width: 38%;
+    padding-left: 8rem;
+    padding-top: 4rem;
+    font-size: 3rem;
+}
+.header-left span{
+    color: blue;
+}
+.del-line {
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+  .content h3{
+    color: white;
+    text-align: left;
+    width: 38%;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .content span{
+    color: blue;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 768px) {
+    .header-left {
+      text-align: left;
+      width: 38%;
+      padding-left: 8rem;
+      padding-top: 4rem;
+    }
+  
+    .content h3 {
+      text-align: left;
+      width: 38%;
+      padding-left: 8rem;
+      padding-top: 3rem;
+    }
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
