@@ -1,19 +1,19 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import LeftAside from "./components/LeftAside";
-import RightAside from "./components/RightAside";
+import React from 'react';
+import './App.css';
+import LeftAside from './components/LeftAside';
+import RightAside from './components/RightAside';
+import Navbar from './components/Navbar';
 
-
-function App(){
+function App() {
   return (
     <div>
       <Navbar />
-      <LeftAside/>
-    <RightAside/>
+      <div className="container">
+        <LeftAside />
+        <RightAside />
+      </div>
     </div>
   );
-};
-
-
+}
 
 export default App;
