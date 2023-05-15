@@ -28,3 +28,50 @@
     color: blue;
   }
   
+/* for devices with a maximum width of 600px */
+@media (max-width: 600px) {
+  .header-left {
+    font-size: 2rem;
+    width: 90%;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+  .content h3 {
+    font-size: 1.5rem;
+    width: 90%;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+}
+
+/* for devices with a maximum width of 900px */
+@media (max-width: 900px) {
+  .header-left {
+    font-size: 2.5rem;
+    width: 80%;
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
+  .content h3 {
+    font-size: 1.8rem;
+    width: 80%;
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
+}
+
+/* for devices with a maximum width of 1200px */
+@media (max-width: 1200px) {
+  .header-left {
+    font-size: 3rem;
+    width: 70%;
+    padding-left: 4rem;
+    padding-top: 4rem;
+  }
+  .content h3 {
+    font-size: 2.2rem;
+    width: 70%;
+    padding-left: 4rem;
+    padding-top: 4rem;
+  }
+}

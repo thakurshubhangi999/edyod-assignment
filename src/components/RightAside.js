@@ -52,8 +52,8 @@ function RightAside() {
       </div>
       <div className="gst">Total (Incl. 18% of GST) </div>
       <div className="buttons-container">
-        <button className="button1">Cancel</button>
-        <button className="button2">Proceed To Pay</button>
+        <button className="button1">CANCEL</button>
+        <button className="button2">PROCEED TO PAY</button>
         
       </div>
       {/* <div>
